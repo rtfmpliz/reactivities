@@ -17,3 +17,10 @@ Persistence/obj/project.nuget.cache
 .vs/Reactivities/v16/.suo
 API/obj/API.csproj.nuget.dgspec.json
 .gitignore
+.vs/slnx.sqlite
+API/obj/API.csproj.nuget.dgspec.json
+bin
+obj
+.vscode
+.DS_Store
+*.db
