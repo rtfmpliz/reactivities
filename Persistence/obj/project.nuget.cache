@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qoI3+PhC4Cricnr+JUkgeFwD7z0Y9+2gigMFl9dbvV+Ql3URznJ3R7M34Xe3vQqBo6RgLI1qrTJida0KSj1QQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
