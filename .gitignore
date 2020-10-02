@@ -10,3 +10,10 @@ Application/obj/project.nuget.cache
 Persistence/obj/Persistence.csproj.nuget.dgspec.json
 Persistence/obj/project.assets.json
 Persistence/obj/project.nuget.cache
+.vscode/tasks.json
+.vscode/launch.json
+.vs/VSWorkspaceState.json
+.vs/Reactivities/DesignTimeBuild/.dtbcache.v2
+.vs/Reactivities/v16/.suo
+API/obj/API.csproj.nuget.dgspec.json
+.gitignore
