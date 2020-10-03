@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <ul>
         {cars.map((car) => (
-          <CarItem/>
+          <CarItem car={car}/>
         ))}
       </ul>
     </div>
