@@ -25,3 +25,4 @@ obj
 .DS_Store
 *.db
 /node_modules
+API/reactivities.db
