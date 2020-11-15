@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistence;
 
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20201115022234_DateTime")]
+    partial class DateTime
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -80,22 +82,6 @@ namespace Persistence.Migrations
                     b.ToTable("NCs");
                 });
 
-            modelBuilder.Entity("Domain.NCDetail", b =>
-                {
-                    b.Property<Guid>("NCId")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("Line")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Partial")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("NCId", "Line");
-
-                    b.ToTable("NCDetails");
-                });
-
             modelBuilder.Entity("Domain.Value", b =>
                 {
                     b.Property<int>("Id")
@@ -125,15 +111,6 @@ namespace Persistence.Migrations
                             Id = 3,
                             Name = "Value 103"
                         });
-                });
-
-            modelBuilder.Entity("Domain.NCDetail", b =>
-                {
-                    b.HasOne("Domain.NC", "NC")
-                        .WithMany()
-                        .HasForeignKey("NCId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
