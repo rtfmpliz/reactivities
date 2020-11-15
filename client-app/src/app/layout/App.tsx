@@ -4,6 +4,7 @@ import axios from "axios";
 import { Header, Icon, List } from "semantic-ui-react";
 
 import {IActivity} from '../models/activity'
+import NavBar from "../../features/nav/NavBar";
 
 
 
@@ -21,10 +22,7 @@ const App = () => {
 
     return (
       <div>
-        <Header as="h2">
-          <Icon name="plug" />
-          <Header.Content>Uptime Guarantee</Header.Content>
-        </Header>
+        <NavBar></NavBar>
         <List>
           {activities.map((activity) => (
             <List.Item key={activity.id}> {activity.title}</List.Item>
