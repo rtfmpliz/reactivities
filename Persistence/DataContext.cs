@@ -12,6 +12,8 @@ namespace Persistence
 
      public DbSet<Value> Values  { get; set; }
      public DbSet<Activity> Activities  { get; set; }
+     public DbSet<NC> NCs  { get; set; }
+     public DbSet<NCDetail> NCDetails  { get; set; }
 
      protected override void OnModelCreating(ModelBuilder builder)
      {
@@ -22,6 +24,8 @@ namespace Persistence
              new Value {Id = 3, Name = "Value 103"}
 
          );
+         builder.Entity<NCDetail>()
+            .HasKey(t => new {t.NCId, t.Line});
      }
     }
 }
