@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { act } from 'react-dom/test-utils';
 import { Button, Form, Segment } from 'semantic-ui-react'
 import { IActivity } from '../../../app/models/activity'
 
@@ -29,10 +28,15 @@ const ActivityForm: React.FC<IProps> = ({setEditMode, activity : initialFormStat
 
     const [activity, setActivity] = useState<IActivity>(initializeForm)
 
+    const handleInputChange = (event: any) => {
+        console.log(event.target.value);
+        setActivity({...activity,title: event.target.value})
+    }
+
     return (
         <Segment clearing>
             <Form>
-                <Form.Input placeholder='Title' value={activity.title}/>
+                <Form.Input onChange={handleInputChange} placeholder='Title' value={activity.title}/>
                 <Form.TextArea rows={2} placeholder='Description' value={activity.description} />
                 <Form.Input placeholder='Category' value={activity.category}/>
                 <Form.Input type='date' placeholder='Date' value={activity.date}/>
