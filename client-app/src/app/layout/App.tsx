@@ -13,7 +13,8 @@ const App = () => {
   const [editMode, setEditMode] = useState(false);
 
   const handleSelectedActivity = (id: string) => {
-    setSelectedActivity(activities.filter(a => a.id===id)[0])
+    setSelectedActivity(activities.filter(a => a.id===id)[0]);
+    setEditMode(false);
   }
 
   const handleOpenCreateForm =() => {
