@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\api\\API.csproj": {}
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\api\\API.csproj": {
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\api\\API.csproj",
+        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\api\\obj\\",
+        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
