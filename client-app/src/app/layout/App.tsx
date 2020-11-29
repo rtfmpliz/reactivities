@@ -41,7 +41,7 @@ const App = () => {
     agent.Activities.list()
     .then((response) => {
         let activities: IActivity[] = [];
-        response.forEach((activity: any) => {
+        response.forEach(activity => {
           activity.date = activity.date.split('.')[0];
           activities.push(activity)
         })
