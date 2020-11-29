@@ -26,3 +26,4 @@ obj
 *.db
 /node_modules
 API/reactivities.db
+client-app/src/debug.log
