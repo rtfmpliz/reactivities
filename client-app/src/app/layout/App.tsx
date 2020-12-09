@@ -21,18 +21,6 @@ const App = () => {
   const [submitting, setSubmitting] = useState(false);
   const [target, setTarget] = useState('');
 
-  const handleEditActivity = (activity: IActivity) => {
-    setSubmitting(true);
-    agent.Activities.update(activity).then(() => {
-      setActivities([
-        ...activities.filter((a) => a.id !== activity.id),
-        activity,
-      ]);
-      setSelectedActivity(activity);
-      setEditMode(false);
-    }).then(() => setSubmitting(false))
-  };
-
   const handleDeleteActivity = (events: SyntheticEvent<HTMLButtonElement>, id: string) => {
     setSubmitting(true);
     setTarget(events.currentTarget.name)
@@ -52,9 +40,6 @@ const App = () => {
       <NavBar/>
       <Container style={{ marginTop: "7em" }}>
         <ActivityDashboard
-          setEditMode={setEditMode}
-          setSelectedActivity={setSelectedActivity}
-          editActivity={handleEditActivity}
           deleteActivity={handleDeleteActivity}
           submitting={submitting}
           target={target}
