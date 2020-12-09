@@ -44,7 +44,7 @@ const ActivityList: React.FC<IProps> = ({
                   loading={target === activity.id && submitting}
                   onClick={(e) => deleteActivity(e,activity.id)}
                   floated="right"
-                  content="Delete"
+                  content="Delete 2"
                   color="red"
                 />
                 <Label basic content={activity.category} />

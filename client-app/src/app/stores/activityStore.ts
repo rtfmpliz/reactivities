@@ -3,6 +3,7 @@ import { createContext } from "react";
 import { IActivity } from "../models/activity";
 import agent from "../api/agent";
 import { error } from "console";
+import { create } from "domain";
 
 
 
@@ -11,6 +12,7 @@ class ActivityStore {
     @observable selectedActivity : IActivity | undefined ;
     @observable loadingInitial = false;
     @observable editMode = false;
+    @observable submitting = false;
 
     @action loadActivities = async () => {
         this.loadingInitial = true;
@@ -27,6 +29,25 @@ class ActivityStore {
             this.loadingInitial = false;
         }
     };
+
+    @action createActivity = async (activity: IActivity) => {
+        this.submitting = true;
+        try {
+            await agent.Activities.create(activity);
+            this.activities.push(activity);
+            this.editMode = false;
+            this.submitting = false
+        } catch (error) {
+            this.submitting = false;
+            console.log(error);
+            
+        }
+    }; 
+
+    @action openCreateForm = () => {
+        this.editMode = false;
+        this.selectedActivity = undefined;
+    }
 
     @action selectActivity = (id: string) => {
         this.selectedActivity = this.activities.find(a => a.id === id);
