@@ -1,13 +1,10 @@
 import { observer } from "mobx-react-lite";
 import React, { useContext } from "react";
 import { Card, Image, Button } from "semantic-ui-react";
-import { IActivity } from "../../../app/models/activity";
 import ActivityStore from "../../../app/stores/activityStore";
 
 
-const ActivityDetails: React.FC = ({
-
-}) => {
+const ActivityDetails: React.FC = () => {
   const activityStore = useContext(ActivityStore);
   const { selectedActivity: activity, openEditForm , cancelSelectedActivity} = activityStore;
   return (
