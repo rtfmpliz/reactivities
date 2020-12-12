@@ -39,11 +39,7 @@ const App = () => {
     <Fragment>
       <NavBar/>
       <Container style={{ marginTop: "7em" }}>
-        <ActivityDashboard
-          deleteActivity={handleDeleteActivity}
-          submitting={submitting}
-          target={target}
-        />
+        <ActivityDashboard/>
       </Container>
     </Fragment>
   );

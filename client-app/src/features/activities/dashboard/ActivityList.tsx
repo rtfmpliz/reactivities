@@ -4,20 +4,9 @@ import { Item, Button, Label, Segment } from "semantic-ui-react";
 import { IActivity } from "../../../app/models/activity";
 import ActivityStore  from '../../../app/stores/activityStore'; 
 
-interface IProps {
-  // selectActivity: (id: string) => void;
-  deleteActivity: (e: SyntheticEvent<HTMLButtonElement>, id: string) => void;
-  submitting: boolean;
-  target: string;
-}
-
-const ActivityList: React.FC<IProps> = ({
-  deleteActivity,
-  submitting,
-  target
-}) => {
+const ActivityList: React.FC = () => {
   const activityStore = useContext(ActivityStore);
-  const {activitiesByDate, selectActivity} = activityStore;
+  const {activitiesByDate, selectActivity, submitting, target, deleteActivity} = activityStore;
   return (
     <Segment clearing>
       <Item.Group divided>
