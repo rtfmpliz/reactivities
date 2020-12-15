@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JpwgkANh273AgAkHd1UsDWEQ5hamhIaNTSxNg+SAKx24jYY7zYdFY9VkL3nqBVhR4h9mod1Kip5mqdMEEJn9Fg==",
+  "dgSpecHash": "6yE16eiyNPPgXp5F7Xxz5MevGuYvi9/aD3drOeGZl/pPutoPJ2xdvl7Rex2zH4aYEfAcsD+/Sl+tsFlc6b5YcQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
