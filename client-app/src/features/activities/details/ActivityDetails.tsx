@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import React, { useContext, useEffect } from "react";
-import { Link, RouteComponentProps } from "react-router-dom";
-import { Card, Image, Button, Grid, GridColumn } from "semantic-ui-react";
+import {  RouteComponentProps } from "react-router-dom";
+import { Grid, GridColumn } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import ActivityStore from "../../../app/stores/activityStore";
 import ActivityDetailedChat from "./ActivityDetailedChat";
@@ -15,7 +15,6 @@ interface DetailParams {
 
 const ActivityDetails: React.FC<RouteComponentProps<DetailParams>> = ({
   match,
-  history,
 }) => {
   const activityStore = useContext(ActivityStore);
   const { activity, loadActivity, loadingInitial } = activityStore;
@@ -30,7 +29,7 @@ const ActivityDetails: React.FC<RouteComponentProps<DetailParams>> = ({
   return (
     <Grid>
       <GridColumn width={10}>
-        <ActivityDetailedHeader/>
+        <ActivityDetailedHeader activity={activity} />
         <ActivityDetailedInfo/>
         <ActivityDetailedChat/>
       </GridColumn>
