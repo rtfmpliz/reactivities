@@ -1,4 +1,4 @@
-import { action, observable, computed, configure, runInAction } from "mobx";
+import { action, observable, computed, configure, runInAction, keys } from "mobx";
 import { createContext, SyntheticEvent } from "react";
 import { IActivity } from "../models/activity";
 import agent from "../api/agent";
@@ -20,7 +20,11 @@ class ActivityStore {
      const sortedActivities = activities.sort(
        (a, b) => Date.parse(a.date) - Date.parse(b.date)
      )
-     return Object.entries(sortedActivities);
+     return Object.entries(sortedActivities.reduce((activities, activity) => {
+       const date = activity.date.split('T')[0];
+       activities[date] = activities[date] ? [...activities[date], activity] : [activity];
+       return activities;
+     },{} as {[key: string]: IActivity[]}));
   }
 
   @action loadActivities = async () => {
