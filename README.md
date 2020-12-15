@@ -4,6 +4,16 @@ Course React dari Hanny
 
 # Catatan Wahyu
 
+## cara Re-seed Database
+
+`cd ..` from API folder
+
+`dotnet ef database drop -p Persistence/ -s API/`
+
+`cd api`
+
+`dotnet watch run`
+
 ## perBab
 
 ### 9.3 group data
