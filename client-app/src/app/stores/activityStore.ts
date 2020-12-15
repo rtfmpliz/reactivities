@@ -20,7 +20,7 @@ class ActivityStore {
      const sortedActivities = activities.sort(
        (a, b) => Date.parse(a.date) - Date.parse(b.date)
      )
-     return sortedActivities;
+     return Object.entries(sortedActivities);
   }
 
   @action loadActivities = async () => {
