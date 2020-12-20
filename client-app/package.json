@@ -23,8 +23,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.4.3",
     "react-toastify": "^6.2.0",
-    "react-widgets": "^5.0.0-beta.22",
-    "react-widgets-date-fns": "^5.0.0-beta.9",
+    "react-widgets": "^4.4.11",
+    "react-widgets-date-fns": "^4.0.26",
     "semantic-ui-react": "^2.0.0",
     "typescript": "^3.7.5",
     "uuid": "^8.3.1"
