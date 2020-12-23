@@ -1,3 +1,4 @@
+import { format } from 'date-fns';
 import { link } from 'fs';
 import { observer } from 'mobx-react-lite';
 import React from 'react'
@@ -32,7 +33,7 @@ const ActivityDetailedHeader: React.FC<{activity: IActivity}> = ({activity}) => 
                   content={activity.title}
                   style={{ color: 'white' }}
                 />
-                <p>{activity.date}</p>
+                <p>{format(activity.date!, 'eeee do MMMM')}</p>
                 <p>
                   Hosted by <strong>Bob</strong>
                 </p>
