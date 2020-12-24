@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vLVgt+c1z5YIE4yql08udRj1EJtEzXsKeAIiSY1x81v6pByiLsiWJEAPNpfb+U9VOHU/yhW9LxMH3BDbw4DDVA==",
+  "dgSpecHash": "y3UfJA9guWZBEu9Wq8F1K4aGdyh1efPNVQ8f8ID5pCk/w8GIiSauiq+ra+N5r6IeS+ukXZI4JN/QsPjoQWbyyg==",
   "success": true,
-  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\API.csproj",
+  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation\\8.5.1\\fluentvalidation.8.5.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.5.1\\fluentvalidation.aspnetcore.8.5.1.nupkg.sha512",
