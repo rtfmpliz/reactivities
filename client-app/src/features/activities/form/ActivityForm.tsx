@@ -1,6 +1,6 @@
 import React, { FormEvent, useContext, useEffect, useState } from "react";
 import { Button, Form, Grid, Segment } from "semantic-ui-react";
-import { IActivity } from "../../../app/models/activity";
+import { IActivity, IActivityFormValues } from "../../../app/models/activity";
 import { v4 as uuid } from "uuid";
 import ActivityStore from "../../../app/stores/activityStore";
 import { observer } from "mobx-react-lite";
@@ -30,18 +30,19 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
     clearActivity,
   } = activityStore;
 
-  const [activity, setActivity] = useState<IActivity>({
+  const [activity, setActivity] = useState<IActivityFormValues>({
     id: "",
     title: "",
     category: "",
     description: "",
-    date: null,
+    date: undefined,
+    time: undefined,
     city: "",
     venue: "",
   });
 
   useEffect(() => {
-    if (match.params.id && activity.id.length === 0) {
+    if (match.params.id && activity.id) {
       loadActivity(match.params.id).then(
         () => initialFormState && setActivity(initialFormState)
       );
@@ -55,9 +56,8 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
     match.params.id,
     clearActivity,
     initialFormState,
-    activity.id.length,
+    activity.id,
   ]);
-
 
   const handleFinalFormSubmit = (values: any) => {
     console.log(values);
@@ -83,7 +83,6 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
                   placeholder="Description"
                   value={activity.description}
                   component={TextAreaInput}
-
                 />
                 <Field
                   name="category"
@@ -91,28 +90,35 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
                   placeholder="Category"
                   value={activity.category}
                   component={SelectInput}
-
                 />
+                <Form.Group widths='equal'>
+
                 <Field
                   name="date"
                   placeholder="Date"
-                  value={activity.date!}
+                  date={true}
+                  value={activity.date}
                   component={DateInput}
-
                 />
+                <Field
+                  name="time"
+                  placeholder="Date"
+                  time={true}
+                  value={activity.time}
+                  component={DateInput}
+                />
+                </Form.Group>
                 <Field
                   name="city"
                   placeholder="City"
                   value={activity.city}
                   component={TextInput}
-
                 />
                 <Field
                   name="venue"
                   placeholder="Venue"
                   value={activity.venue}
                   component={TextInput}
-
                 />
                 <Button
                   loading={submitting}
