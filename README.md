@@ -172,6 +172,17 @@ it an observer.
 So let's say observes any changes to our activity objects say down at the bottom I'm just going to say
 ```
 
+## bab 10.11 
+
+```tsx
+  const handleFinalFormSubmit = (values: any) => {
+    const dateAndTime = combineDateAndTime(values.date, values.time)
+    const {date, time, ...activity} = values; //we access all the activity object, minus the date and time 
+    activity.date = dateAndTime;
+    console.log(activity);
+  };
+```
+
 
 
 ## Untuk memanggil dari ActivityStore
