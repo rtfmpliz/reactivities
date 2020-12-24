@@ -41,9 +41,9 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
   useEffect(() => {
     if (match.params.id) {
       setLoading(true);
-      loadActivity(match.params.id).then(
-        (activity) => setActivity(new ActivityFormValues(activity))
-      ).finally(() => setLoading(false));
+      loadActivity(match.params.id)
+        .then((activity) => setActivity(new ActivityFormValues(activity)))
+        .finally(() => setLoading(false));
     }
   }, [loadActivity, match.params.id]);
 
@@ -51,15 +51,23 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
     const dateAndTime = combineDateAndTime(values.date, values.time);
     const { date, time, ...activity } = values;
     activity.date = dateAndTime;
-    console.log(activity);
+    if (!activity.id) {
+      let newActivity = {
+        ...activity,
+        id: uuid(),
+      };
+      createActivity(newActivity);
+    } else {
+      editActivity(activity);
+    }
   };
 
   return (
     <Grid>
       <Grid.Column width={10}>
-        <Segment clearing >
+        <Segment clearing>
           <FinalForm
-          initialValues={activity}
+            initialValues={activity}
             onSubmit={handleFinalFormSubmit}
             render={({ handleSubmit }) => (
               <Form onSubmit={handleSubmit} loading={loading}>
@@ -120,7 +128,11 @@ const ActivityForm: React.FC<RouteComponentProps<DetailParams>> = ({
                   disabled={loading}
                 />
                 <Button
-                  onClick={() => history.push("/activities")}
+                  onClick={
+                    activity.id
+                      ? () => history.push(`/activities/${activity.id}`)
+                      : () => history.push("/activities")
+                  }
                   floated="right"
                   type="button"
                   content="Cancel"
