@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj": {}
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\API.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj": {
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
+        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\API.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\obj\\",
+        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\APi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
               "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj": {
                 "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj"
@@ -46,7 +46,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -85,24 +85,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.3, 3.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
