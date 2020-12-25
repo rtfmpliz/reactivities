@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj": {}
+    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj": {
+    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
+        "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+              "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
+              "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.5.1, )"
@@ -90,14 +94,14 @@
         }
       }
     },
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\obj\\",
+        "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -165,14 +169,14 @@
         }
       }
     },
-    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
+    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -191,8 +195,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+              "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -206,6 +210,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.8, )"
