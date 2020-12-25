@@ -1,11 +1,12 @@
 import { configure } from "mobx";
-import { createContext } from "vm";
+import { createContext } from "react";
 import ActivityStore from "./activityStore";
 import CommonStore from "./commonStore";
 import ModalStore from "./modalStore";
+import UserStore from "./userStore";
 
 
-configure({enforceActions: 'always'};
+configure({enforceActions: 'always'});
 
 export class RootStore {
     activityStore: ActivityStore;

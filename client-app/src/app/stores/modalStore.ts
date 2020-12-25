@@ -1,6 +1,6 @@
-import { RoorStore } from "./rootStore";
+import { RootStore } from "./rootStore";
 import { observable, action } from "mobx";
-import { contextType } from "react-widgets/lib/SelectList";
+
 
 export default class ModalStore {
     rootStore: RootStore;
