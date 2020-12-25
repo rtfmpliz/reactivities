@@ -6583,11 +6583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
+      "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6606,11 +6606,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+            "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
             },
-            "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
+            "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }

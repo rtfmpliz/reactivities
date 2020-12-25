@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EMgBRAfWwDbojAepf1vnYeVLUh/iKgPz8dtyyJDo3ZoxV+Dqi/Xna1NBD7EycebVSc+jVawrHJQEAECAmYOulQ==",
+  "dgSpecHash": "XKQl7BBquASCy/I0/VftRCzWDeNG/QZMlmZvcs6ARDFpND2zbmjUbMFSntaKYqF1tiXBfNcj2uqul9UIxUEHFQ==",
   "success": true,
-  "projectFilePath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
+  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
