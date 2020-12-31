@@ -27,3 +27,5 @@ obj
 /node_modules
 API/reactivities.db
 client-app/src/debug.log
+client-app/debug.log
+Application/Activities/Details.cs
