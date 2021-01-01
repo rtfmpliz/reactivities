@@ -38,7 +38,7 @@ return <h1>Not Found</h1>
         <ActivityDetailedChat/>
       </GridColumn>
       <GridColumn width={6}>
-        <ActivityDetailedSidebar/>
+        <ActivityDetailedSidebar attendees={activity.attendees}/>
       </GridColumn>
     </Grid>
   );
