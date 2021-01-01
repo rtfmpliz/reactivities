@@ -7,7 +7,7 @@ import ActivityListItemAttendees from "./ActivityListItemAttendees";
 
 const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
   // const host = activity.attendees.filter(x => x.isHost)[0];
-  const host = activity.attendees.filter(x => x.isHost)[0];
+  // const host = activity.attendees.filter(x => x.isHost)[0];
   return (
     <Segment.Group>
       <Segment>

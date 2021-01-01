@@ -1,3 +1,4 @@
+import { observer } from "mobx-react-lite";
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Segment, List, Item, Label, Image } from "semantic-ui-react";
@@ -23,8 +24,8 @@ const ActivityDetailedSidebar: React.FC<IProps> = ({ attendees }) => {
       </Segment>
       <Segment attached>
         <List relaxed divided>
-          {attendees.map((attendees) => (
-            <Item style={{ position: "relative" }}>
+          {attendees.map((attendee) => (
+            <Item key={attendee.username} style={{ position: "relative" }}>
               {isHost && (
                 <Label
                   style={{ position: "absolute" }}
@@ -34,11 +35,11 @@ const ActivityDetailedSidebar: React.FC<IProps> = ({ attendees }) => {
                   Host
                 </Label>
               )}
-              <Image size="tiny" src={attendees.image || "/assets/user.png"} />
+              <Image size="tiny" src={attendee.image || "/assets/user.png"} />
               <Item.Content verticalAlign="middle">
                 <Item.Header as="h3">
-                  <Link to={`/profile/${attendees.username}`}>
-                    {attendees.displayName}
+                  <Link to={`/profile/${attendee.username}`}>
+                    {attendee.displayName}
                   </Link>
                 </Item.Header>
                 <Item.Extra style={{ color: "orange" }}>Following</Item.Extra>
@@ -51,4 +52,4 @@ const ActivityDetailedSidebar: React.FC<IProps> = ({ attendees }) => {
   );
 };
 
-export default ActivityDetailedSidebar;
+export default observer(ActivityDetailedSidebar);
