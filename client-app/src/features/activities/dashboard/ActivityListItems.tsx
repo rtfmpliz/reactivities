@@ -16,7 +16,9 @@ const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
             <Item.Image
               size="tiny"
               circular
-              src={ "/assets/user.png"}
+              src={ 
+                // host.image ||
+                "/assets/user.png"}
               />
               
             <Item.Content>
@@ -25,7 +27,7 @@ const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
               </Item.Header>
               <Item.Description>
                 Hosted by
-                 {host.displayName}
+                 {/* {host.displayName} */}
                  </Item.Description>
               {activity.isHost && 
                 <Item.Description>
