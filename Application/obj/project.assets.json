@@ -90,19 +90,19 @@
           "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
-      "MediatR/8.1.0": {
+      "MediatR/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.0/MediatR.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.0/MediatR.dll": {}
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/8.1.0": {
+      "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
-          "MediatR": "8.1.0",
+          "MediatR": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
@@ -2089,34 +2089,28 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
-    "MediatR/8.1.0": {
-      "sha512": "KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+    "MediatR/7.0.0": {
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
       "type": "package",
-      "path": "mediatr/8.1.0",
+      "path": "mediatr/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gradient_128x128.png",
         "lib/net461/MediatR.dll",
-        "lib/net461/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
-        "lib/netstandard2.0/MediatR.xml",
-        "lib/netstandard2.1/MediatR.dll",
-        "lib/netstandard2.1/MediatR.xml",
-        "mediatr.8.1.0.nupkg.sha512",
+        "mediatr.7.0.0.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
-    "MediatR.Extensions.Microsoft.DependencyInjection/8.1.0": {
-      "sha512": "kKJOHmdFKjd5hpk+RG1NXoGkZj9AYgXDCHui3Sx1OMIeBJEe0luG93JvOdLsghf7VQa2OX0Yi00sE39um4SMEw==",
+    "MediatR.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "DRf8jBnjBg84da1L1L0YmwqkhCV+UJTg7bTBHOhleWrLfrtSK5h5aNeE1HOofs1Afisq03B6H2C10NmS47gmqA==",
       "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/8.1.0",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gradient_128x128.png",
         "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
         "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
@@ -6572,7 +6566,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "Domain >= 1.0.0",
       "FluentValidation.AspNetCore >= 8.5.1",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 8.1.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "Persistence >= 1.0.0"
     ]
   },
@@ -6583,11 +6577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
+      "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6606,11 +6600,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+            "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
             },
-            "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
+            "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -6634,7 +6628,7 @@
           },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[8.1.0, )"
+            "version": "[7.0.0, )"
           }
         },
         "imports": [

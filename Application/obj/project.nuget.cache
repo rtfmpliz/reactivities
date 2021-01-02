@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KfHTByFytNn+i+mu8vQYUvXRBC27m/R7/QZ3v98Mab/zC/Na1JF6BqLzdm0TMFi0aHgapDq421FKmNUWPWSBlw==",
+  "dgSpecHash": "3PByPyxKWtLG5O967YOK+3yf/xEe+BaNSH/YzqzhEh8Y5ZnT57p9AZX1MlAJiuNJIh5XA8Srla8J7JiOZIsiGw==",
   "success": true,
-  "projectFilePath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
+  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
@@ -10,8 +10,8 @@
     "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation\\8.5.1\\fluentvalidation.8.5.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation.aspnetcore\\8.5.1\\fluentvalidation.aspnetcore.8.5.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.5.1\\fluentvalidation.dependencyinjectionextensions.8.5.1.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.1.0\\mediatr.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\7.0.0\\mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.0.0\\microsoft.aspnetcore.cryptography.internal.3.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.0.0\\microsoft.aspnetcore.cryptography.keyderivation.3.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.3.0.0.nupkg.sha512",

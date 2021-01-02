@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {}
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
+    "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -105,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

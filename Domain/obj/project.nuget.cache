@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "91w1q4/TTfEXNkL6pzJse5KDpolY1ObOaeU+lEpzCZDOTasrNTFaxNF2n7AOFSUvxdJ8+Ohg5Sh/dNXoqa+FCA==",
+  "dgSpecHash": "Mq0/p/6F10CaOWys7t8iTfodZClPGBCKWXglRd6b/XKtkjxBYeZWHpfbhmMH/1TA52S/f89ozenYtW9kq0J53g==",
   "success": true,
-  "projectFilePath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.0.0\\microsoft.aspnetcore.cryptography.internal.3.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.0.0\\microsoft.aspnetcore.cryptography.keyderivation.3.0.0.nupkg.sha512",
