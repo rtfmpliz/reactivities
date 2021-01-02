@@ -1637,3 +1637,5 @@ change to API project
 
 
 install package CloudinaryDotnet @1.8.0 in Infrastructure Project 
+
+drop

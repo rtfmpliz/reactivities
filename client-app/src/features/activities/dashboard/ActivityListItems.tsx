@@ -6,7 +6,8 @@ import { format } from "date-fns";
 import ActivityListItemAttendees from "./ActivityListItemAttendees";
 
 const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
-  // const host = activity.attendees.filter(x => x.isHost)[0];
+  const host = activity.attendees.filter((x) => x.isHost)[0];
+
   // const host = activity.attendees.filter(x => x.isHost)[0];
   return (
     <Segment.Group>
@@ -16,20 +17,24 @@ const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
             <Item.Image
               size="tiny"
               circular
-              src={ 
+              src={
                 // host.image ||
-                "/assets/user.png"}
-              />
-              
+                "/assets/user.png"
+              }
+              style={{ marginBottom: 3 }}
+            />
+
             <Item.Content>
               <Item.Header as={Link} to={`/activities/${activity.id}`}>
                 {activity.title}
               </Item.Header>
               <Item.Description>
                 Hosted by
-                 {/* {host.displayName} */}
-                 </Item.Description>
-              {activity.isHost && 
+                {/* <Link to={`/profile/${host.username}`}>
+                  <strong>{host.displayName}</strong>
+                </Link> */}
+              </Item.Description>
+              {activity.isHost && (
                 <Item.Description>
                   <Label
                     basic
@@ -37,8 +42,8 @@ const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
                     content="You are hosting this activity"
                   />
                 </Item.Description>
-              }
-              {activity.isGoing && !activity.isHost && 
+              )}
+              {activity.isGoing && !activity.isHost && (
                 <Item.Description>
                   <Label
                     basic
@@ -46,7 +51,7 @@ const ActivityListItems: React.FC<{ activity: IActivity }> = ({ activity }) => {
                     content="You are going to this activity"
                   />
                 </Item.Description>
-       }
+              )}
             </Item.Content>
           </Item>
         </Item.Group>
