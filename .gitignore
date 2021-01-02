@@ -29,3 +29,7 @@ API/reactivities.db
 client-app/src/debug.log
 client-app/debug.log
 Application/Activities/Details.cs
+API/obj/API.csproj.nuget.dgspec.json
+API/obj/project.assets.json
+API/obj/project.nuget.cache
+API/obj/project.nuget.cache
