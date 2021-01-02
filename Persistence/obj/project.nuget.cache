@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x4qAvslVRQ6i8GnbviC7ZuLl/Ak2Y7++vl9m9w/JhTxj4i6CuipOCXK1TKAB18MzPkE/+YGvnM5zmUALsaS7Xw==",
+  "dgSpecHash": "dX+lLOxa0yiFvGNXqB2n41IyThp0ZTXUyTDJmgKRlj2xJfK4nNatC/o1HkOqYfmIUJ7u7Y5ISpkqMsRM4i8/6g==",
   "success": true,
-  "projectFilePath": "C:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
+  "projectFilePath": "c:\\dev\\dotnetcore\\2020\\course\\Reactivities\\Reactivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\castle.core\\4.2.1\\castle.core.4.2.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.0.0\\microsoft.aspnetcore.cryptography.internal.3.0.0.nupkg.sha512",

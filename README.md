@@ -1602,3 +1602,16 @@ const activityStore = useContext(ActivityStore);
       <h1>{activityStore.title}</h1>
 ```
 
+## #16 Cloudinary
+
+### #2 Cloudinary setting
+
+`dotnet user-secrets set "Cludinary:CloudName" "duijlcwpq"`
+
+`dotnet user-secrets set "Cludinary:ApiKey" "445532985372427"`
+
+`dotnet user-secrets set "Cludinary:ApiSecret" "TeqtKj1L20pmvBQ4tYDlmMDG_LE"`
+
+
+
+install package CloudinaryDotnet @1.8.0 in Infrastructure Project 
