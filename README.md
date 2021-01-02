@@ -14,6 +14,24 @@ Course React dari Hanny
 
 `dotnet watch run`
 
+## Error
+
+### 404 NotFound di API 
+
+setelah tambah Controller baru , restart `dotnet run`
+
+### Setelah add migrations, ada error drop IDentity column
+
+hapus folder migrations
+
+drop database atau state nama database baru di appsettings.json
+
+Add new migrations
+
+`dotnet ef database update -p Persistence -s API` 
+
+
+
 ## perBab
 
 ### 9.3 group data
