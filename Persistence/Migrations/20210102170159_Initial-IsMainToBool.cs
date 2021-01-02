@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistence.Migrations
 {
-    public partial class module17Photo : Migration
+    public partial class InitialIsMainToBool : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -209,7 +209,7 @@ namespace Persistence.Migrations
                 {
                     Id = table.Column<string>(nullable: false),
                     Url = table.Column<string>(nullable: true),
-                    IsMain = table.Column<string>(nullable: true),
+                    IsMain = table.Column<bool>(nullable: false),
                     AppUserId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

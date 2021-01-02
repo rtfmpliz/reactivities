@@ -10,8 +10,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210102081050_module17Photo")]
-    partial class module17Photo
+    [Migration("20210102170159_Initial-IsMainToBool")]
+    partial class InitialIsMainToBool
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -180,8 +180,8 @@ namespace Persistence.Migrations
                     b.Property<string>("AppUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("IsMain")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Url")
                         .HasColumnType("nvarchar(max)");
