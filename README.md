@@ -1604,7 +1604,11 @@ const activityStore = useContext(ActivityStore);
 
 ## #16 Cloudinary
 
-### #2 Cloudinary setting
+### #2 Cloudinary setting API
+
+change to API project
+
+`cd api`
 
 `dotnet user-secrets set "Cludinary:CloudName" "duijlcwpq"`
 
