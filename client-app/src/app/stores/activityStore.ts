@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { RootStore } from "./rootStore";
 import { createAttendee, setActivityProps } from "../common/util/util";
 import { HubConnection, HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
+import { log } from "console";
 
 configure({ enforceActions: "always" });
 
@@ -44,6 +45,16 @@ export default class ActivityStore {
 
   @action stopHubConnection = () => {
     this.hubConnection!.stop();
+  }
+
+  @action addComment = async (values: any) => {
+    values.activityId = this.activity!.id;
+    try {
+      await this.hubConnection!.invoke('SendComment', values)
+    } catch (error) {
+      console.log(error);
+      
+    }
   }
 
   @computed get activitiesByDate() {
