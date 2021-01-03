@@ -1639,3 +1639,17 @@ change to API project
 install package CloudinaryDotnet @1.8.0 in Infrastructure Project 
 
 drop
+
+## 18
+
+`npm install react-dropzone@10.1.5`
+
+`npm install react-croppper@1.2.0`
+
+`npm install @types/react-cropper@0.10.6`
+
+### 18.11
+
+For error getCroppedCanvas just install **@types/cropperjs@1.1.5**
+
+`npm install @types/cropperjs@1.1.5`
