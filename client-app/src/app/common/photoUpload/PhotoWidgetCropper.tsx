@@ -22,7 +22,7 @@ const PhotoWidgetCropper: React.FC<IProps> = ({setImage, imagePreview}) => {
     return (
         <Cropper 
         ref={cropper} 
-        src='http://fengyuanchen.github.io/cropper/img/picture.jpg' 
+        src={imagePreview} 
         style={{height: 200, width: '100%'}} 
         aspectRatio={1 / 1} 
         preview='.img-preview'
@@ -31,7 +31,7 @@ const PhotoWidgetCropper: React.FC<IProps> = ({setImage, imagePreview}) => {
         dragMode='move'
         scalable = {true}
         cropBoxMovable={true}
-        cropBoxResizeable={true}
+        cropBoxResizable={true}
         crop={cropImage}
 
          />

@@ -1653,3 +1653,9 @@ drop
 For error getCroppedCanvas just install **@types/cropperjs@1.1.5**
 
 `npm install @types/cropperjs@1.1.5`
+
+
+
+![image-20210103114946367](README.assets/image-20210103114946367.png)
+
+Error on tyscript try Ctrl + P > `reload`
