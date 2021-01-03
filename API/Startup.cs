@@ -38,8 +38,8 @@ namespace API
             services.AddDbContext<DataContext>(opt =>
             {
                 opt.UseLazyLoadingProxies();
-                // opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
-                opt.UseSqlServer(Configuration.GetConnectionString("DefaultSQLServerConnection"));
+                opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
+                // opt.UseSqlServer(Configuration.GetConnectionString("DefaultSQLServerConnection"));
             });
             services.AddCors(opt =>{
                 opt.AddPolicy("CorsPolicy", policy =>{
