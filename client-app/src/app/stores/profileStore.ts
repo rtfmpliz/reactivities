@@ -1,4 +1,3 @@
-import { log } from "console";
 import { action, observable, runInAction, computed } from "mobx";
 import { toast } from "react-toastify";
 import agent from "../api/agent";
@@ -26,6 +25,7 @@ export default class ProfileStore {
   }
 
   @action loadProfile = async (username: string) => {
+    this.loadingProfile = true;
     try {
       const profile = await agent.Profiles.get(username);
       runInAction(() => {
