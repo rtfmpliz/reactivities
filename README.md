@@ -1663,3 +1663,9 @@ Error on tyscript try Ctrl + P > `reload`
 ## 20.7
 
 `npm install @microsoft/signalr@3.0.0`
+
+## 20.10
+
+### #1. formatting date fns on comments
+
+### #2 create empty array when create new activity
