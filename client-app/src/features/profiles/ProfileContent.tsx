@@ -24,7 +24,7 @@ const ProfileContent: React.FC<IProps> = ({setActiveTab}) => {
             menuPosition='right'
             panes={panes}
             onTabChange={(e, data) => setActiveTab(data.activeIndex)}
-            activeIndex={1}
+           
         />
     );
 };

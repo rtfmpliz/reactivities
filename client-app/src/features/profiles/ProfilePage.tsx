@@ -35,7 +35,13 @@ const ProfilePage: React.FC<IProps> = ({ match }) => {
   return (
     <Grid>
       <Grid.Column width={16}>
-        <ProfileHeader profile={profile!} loading={loading} isCurrentUser={isCurrentUser} follow={follow} unfollow={unfollow} />
+        <ProfileHeader
+          profile={profile!}
+          loading={loading}
+          isCurrentUser={isCurrentUser}
+          follow={follow}
+          unfollow={unfollow}
+        />
         <ProfileContent setActiveTab={setActiveTab} />
       </Grid.Column>
     </Grid>
