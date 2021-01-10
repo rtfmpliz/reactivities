@@ -1,9 +1,10 @@
 import { observer } from "mobx-react-lite";
 import React, { useContext, useEffect, useState } from "react";
-import { Button, Grid, GridColumn } from "semantic-ui-react";
+import {  Grid, GridColumn, Loader } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import ActivityList from "./ActivityList";
 import { RootStoreContext} from '../../../app/stores/rootStore'; 
+import InfiniteScroll from 'react-infinite-scroller'
 
 const ActivityDashboard: React.FC = () => {
 
@@ -28,11 +29,17 @@ const ActivityDashboard: React.FC = () => {
   return (
     <Grid>
       <Grid.Column width={10}>
+        <InfiniteScroll pageStart={0} loadMore={handleGetNext} hasMore={!loadingNext && page + 1 < totalPages} initialLoad={false}>
+
         <ActivityList />
-        <Button floated='right' content='Mode ...' positive onClick={handleGetNext} loading={loadingNext}  disabled={totalPages === page + 1} />
+        </InfiniteScroll>
+
       </Grid.Column>
       <GridColumn width={6}>
         <h2>Activity filters</h2>
+      </GridColumn>
+      <GridColumn width={10}>
+        <Loader active={loadingNext}/>
       </GridColumn>
     </Grid>
   );

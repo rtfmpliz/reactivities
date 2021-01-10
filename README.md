@@ -1669,3 +1669,9 @@ Error on tyscript try Ctrl + P > `reload`
 ### #1. formatting date fns on comments
 
 ### #2 create empty array when create new activity
+
+## 21.5
+
+`client-app>npm install react-infinite-scroller@1.2.4`
+
+`npm install @types/react-infinite-scroller@1.2.1`
