@@ -1675,3 +1675,7 @@ Error on tyscript try Ctrl + P > `reload`
 `client-app>npm install react-infinite-scroller@1.2.4`
 
 `npm install @types/react-infinite-scroller@1.2.1`
+
+## 21.6
+
+`S_21.4.1`
