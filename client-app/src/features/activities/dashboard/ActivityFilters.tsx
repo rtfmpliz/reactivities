@@ -7,6 +7,7 @@ import { observer } from "mobx-react-lite";
 const ActivityFilters = () => {
   const rootStore = useContext(RootStoreContext);
   const { predicate, setPredicate } = rootStore.activityStore;
+  return (
   <Fragment>
     <Menu vertical size={"large"} style={{ width: "100%", marginTop: 50 }}>
       <Header icon={"filter"} attached color={"teal"} content={"Filters"} />
@@ -37,8 +38,9 @@ const ActivityFilters = () => {
       onChange={(date) => setPredicate("startDate", date!)}
       value={predicate.get("startDate") || new Date()}
     />
-  </Fragment>;
+  </Fragment>
+  )
 };
 
 export default observer(ActivityFilters);
-// export default ActivityFilters;
+
