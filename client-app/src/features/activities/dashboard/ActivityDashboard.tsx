@@ -21,7 +21,7 @@ const ActivityDashboard: React.FC = () => {
     loadActivities();
   }, [loadActivities]);
 
-  if (loadingInitial)
+  if (loadingInitial && page === 0 )
     return <LoadingComponent content="Loading Activities ..." />;
 
 
