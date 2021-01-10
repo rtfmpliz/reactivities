@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [Route("api/profiles")]
     public class FollowersController : BaseController
     {
         [HttpPost("{username}/follow")]
